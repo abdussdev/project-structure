@@ -14,7 +14,7 @@ const productController = require("../controllers/productController.js")
 const shipmentController = require("../controllers/shipmentController.js")
 const subAdminController = require("../controllers/subAdminController.js")
 const userController = require("../controllers/userController.js")
-const wishListController = require("../controllers/wishlistController")
+const wishListController = require("../controllers/wishlistController.js")
 
 // Admin
 router.get('/admins', adminController.createAdmin);
